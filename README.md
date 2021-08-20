@@ -1,8 +1,7 @@
 # `starlite-nvim`
 Expedient and simple text highlighting using built in Neovim commands:
 
-<kbd>\*</kbd>, <kbd>g</kbd> + <kbd>\*</kbd>, <kbd>\#</kbd>, <kbd>g</kbd> +
-<kbd>#</kbd>. Written in Lua.
+<kbd>\*</kbd>, <kbd>g\*</kbd>, <kbd>\#</kbd>, <kbd>g#</kbd>. Written in Lua.
 
 ## Introduction
 
@@ -36,10 +35,10 @@ The plugin exposes four functions which can be manually mapped:
 E.g:
 
 ```vim
-nnoremap <silent> * :lua require'starlite'star()<cr>
-nnoremap <silent> g* :lua require'starlite'g_star()<cr>
-nnoremap <silent> # :lua require'starlite'hash()<cr>
-nnoremap <silent> g# :lua require'starlite'g_hash()<cr>
+nnoremap <silent> * :lua require'starlite'.star()<cr>
+nnoremap <silent> g* :lua require'starlite'.g_star()<cr>
+nnoremap <silent> # :lua require'starlite'.hash()<cr>
+nnoremap <silent> g# :lua require'starlite'.g_hash()<cr>
 ```
 
 ### `star()`
