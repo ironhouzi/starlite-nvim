@@ -1,8 +1,8 @@
 # `starlite-nvim`
-Expedient and simple text highlighting using built in Neovim commands: 
-`*`, `g*`, `#`, `g#`. Written in Lua.
+Expedient and simple text highlighting using built in Neovim commands:
 
----
+<kbd>\*</kbd>, <kbd>g</kbd> + <kbd>\*</kbd>, <kbd>\#</kbd>, <kbd>g</kbd> +
+<kbd>#</kbd>. Written in Lua.
 
 ## Introduction
 
@@ -18,48 +18,46 @@ occurrence.
 While there are many excellent plugins for text highlighting, this plugin aims
 for simplicity that should cover most of your highlighting needs.
 
----
-
 ## Prerequisites
 
 - Neovim 5.0
-
----
 
 ## Setup
 
 The plugin exposes four functions which can be manually mapped:
 
-- `highlight.star()`
-- `highlight.g_star()`
-- `highlight.hash()`
-- `highlight.g_hash()`
+- `star()`
+- `g_star()`
+- `hash()`
+- `g_hash()`
+
+---
 
 E.g:
 
 ```vim
-nnoremap * :lua require'starlite'.highlight.star()<cr>
-nnoremap g* :lua require'starlite'.highlight.g_star()<cr>
-nnoremap # :lua require'starlite'.highlight.hash()<cr>
-nnoremap g# :lua require'starlite'.highlight.g_hash()<cr>
+nnoremap <silent> * :lua require'starlite'star()<cr>
+nnoremap <silent> g* :lua require'starlite'g_star()<cr>
+nnoremap <silent> # :lua require'starlite'hash()<cr>
+nnoremap <silent> g# :lua require'starlite'g_hash()<cr>
 ```
 
-### `highlight.star()`
+### `star()`
 
         Performs plugin behavior for
         [`star`](https://neovim.io/doc/user/pattern.html#star).
 
-### `highlight.g_star()`
+### `g_star()`
 
         Performs plugin behavior for
         [`gstar`](https://neovim.io/doc/user/pattern.html#gstar).
 
-### `highlight.hash()`
+### `hash()`
 
         Performs plugin behavior for
         [`#`](https://neovim.io/doc/user/pattern.html##).
 
-### `highlight.g_hash()`
+### `g_hash()`
 
         Performs plugin behavior for
         [`g#`](https://neovim.io/doc/user/pattern.html#g#).
