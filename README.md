@@ -25,15 +25,6 @@ for simplicity that should cover most of your highlighting needs.
 
 The plugin exposes four functions which can be manually mapped:
 
-- `star()`
-- `g_star()`
-- `hash()`
-- `g_hash()`
-
----
-
-E.g:
-
 ```vim
 nnoremap <silent> * :lua require'starlite'.star()<cr>
 nnoremap <silent> g* :lua require'starlite'.g_star()<cr>
