@@ -2,6 +2,7 @@
 Expedient and simple text ng using built in Neovim commands:
 |*|, |g*|, |#|, |g#|. Written in Lua.
 
+Author: Robin Skahjem-Eriksen
 
 CONTENTS                                                       *starlite-nvim*
 
