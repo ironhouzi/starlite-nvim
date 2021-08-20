@@ -43,20 +43,20 @@ nnoremap <silent> g# :lua require'starlite'.g_hash()<cr>
 
 ### `star()`
 
-        Performs plugin behavior for
-        [`star`](https://neovim.io/doc/user/pattern.html#star).
+Performs plugin behavior for
+[`star`](https://neovim.io/doc/user/pattern.html#star).
 
 ### `g_star()`
 
-        Performs plugin behavior for
-        [`gstar`](https://neovim.io/doc/user/pattern.html#gstar).
+Performs plugin behavior for
+[`gstar`](https://neovim.io/doc/user/pattern.html#gstar).
 
 ### `hash()`
 
-        Performs plugin behavior for
-        [`#`](https://neovim.io/doc/user/pattern.html##).
+Performs plugin behavior for
+[`#`](https://neovim.io/doc/user/pattern.html##).
 
 ### `g_hash()`
 
-        Performs plugin behavior for
-        [`g#`](https://neovim.io/doc/user/pattern.html#g#).
+Performs plugin behavior for
+[`g#`](https://neovim.io/doc/user/pattern.html#g#).
